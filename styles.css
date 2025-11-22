@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(246,245,240);
+  color: rgb(0, 0, 0);
+  padding: 0px 100px;
+}
+h1 {
+  color: rgb(0, 0, 0); font-family:arial; text-align: center; font-size: 2.5rem;
+}
+p,ul,ol {
+  color: rgb(0, 0, 0); font-family:arial; font-size: 20px; letter-spacing: 0.05em;
+}
+table {
+  color: rgb(0, 0, 0); font-family:arial; font-size: 0.9em; letter-spacing: 0.05em;
+}
+h3 {
+  color: rgb(0, 0, 0); bottom:0; font-family:arial; width: 100%; text-align: center; font-size: 1.5rem;
+  
+}
+a {
+  color: rgb(34,79,142);
+  text-decoration:none;
+}
+a:hover {
+  text-decoration:underline;
+}
+.indexlink {
+  color: #000000; font-family:arial; font-size: 20px; letter-spacing: 0.05em; padding: 0px 0px;
+}
+img {
+    display: block;
+    max-height: 100%;
+    max-width: 40%;
+    margin: auto;
+}
+.ulink:hover {
+  text-decoration: none;
+}
+@media screen and (max-width: 800px) {
+  
+  img {
+    max-width: 100%;
+}
+}
+@media screen and (max-width: 600px) {
+  body {
+    padding: 0px 20px
+  }
+}
