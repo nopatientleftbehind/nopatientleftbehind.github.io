@@ -35,6 +35,13 @@ img {
 .ulink:hover {
   text-decoration: none;
 }
+.indexlink {
+  padding: 10px 0;
+}
+.articletitle {
+  font-size: 2rem;
+  text-align: justify;
+}
 @media screen and (max-width: 800px) {
   
   img {
